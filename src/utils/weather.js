@@ -11,8 +11,8 @@ const weather = (lat, long, callback) => {
         } else {
             callback(undefined, "Weather conditon: " + body.current.weather_descriptions[0] +
                 ". The current temperature is " + body.current.temperature +
-                "degrees. The feelslike temperature is " + body.current.feelslike  + 
-                "degrees. The humidity is " + body.current.humidity + "%.")
+                " degrees. The feelslike temperature is " + body.current.feelslike  + 
+                " degrees. The humidity is " + body.current.humidity + "%.")
         }
     })
 
