@@ -37,6 +37,11 @@ header a {
   text-decoration: none;
 }
 
+.ref {
+  color: burlywood;
+  text-decoration: none;
+}
+
 .portrait {
   width: 250px;
 }
